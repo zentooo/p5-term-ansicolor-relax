@@ -1,27 +1,23 @@
 This is Perl module Term::ANSIColor::Relax.
 
-INSTALLATION
+USAGE
 
-Term::ANSIColor::Relax installation is straightforward. If your CPAN shell is set up,
-you should just be able to do
+use Term::ANSIColor::Relax;
+use feature qw/say/;
 
-    % cpan Term::ANSIColor::Relax
+say "I"->green;
+say "love"->magenta->bold->underscore;
+say "you"->white->on_blue;
 
-Download it, unpack it, then build it as per the usual:
+my $timtoady = <<'TIMTOADY';
+#####  ###  #    #  #####   ###     #    ####   #   #  
+  #     #   ##  ##    #    #   #   # #   #   #  #   #  
+  #     #   # ## #    #    #   #  #   #  #   #   # #   
+  #     #   #    #    #    #   #  #####  #   #    #    
+  #     #   #    #    #    #   #  #   #  #   #    #    
+  #    ###  #    #    #     ###   #   #  ####     #    
+TIMTOADY
 
-    % perl Makefile.PL
-    % make && make test
-
-Then install it:
-
-    % make install
-
-DOCUMENTATION
-
-Term::ANSIColor::Relax documentation is available as in POD. So you can do:
-
-    % perldoc Term::ANSIColor::Relax
-
-to read the documentation online with your favorite pager.
+say $timtoady->rainbow;
 
 zentooo
