@@ -84,7 +84,7 @@ package Term::ANSIColor::Relax;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw/autobox/;
 
@@ -100,15 +100,16 @@ __END__
 
 =head1 NAME
 
-Term::ANSIColor::Relax -
+Term::ANSIColor::Relax - take easy to use colors in your term
 
 =head1 SYNOPSIS
 
   use Term::ANSIColor::Relax;
+  use feature qw/say/;
 
-=head1 DESCRIPTION
-
-Term::ANSIColor::Relax is
+  say "I"->green;
+  say "love"->magenta->bold->underscore;
+  say "you"->white->on_blue;
 
 =head1 AUTHOR
 
