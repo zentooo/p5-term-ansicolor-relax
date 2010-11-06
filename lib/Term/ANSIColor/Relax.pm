@@ -84,7 +84,7 @@ package Term::ANSIColor::Relax;
 use strict;
 use warnings;
 
-our $VERSION = '0.04';
+our $VERSION = '0.02';
 
 use base qw/autobox/;
 

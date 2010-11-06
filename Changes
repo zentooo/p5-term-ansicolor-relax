@@ -4,7 +4,3 @@ Revision history for Perl extension Term::ANSIColor::Relax
         - original version
 0.02    Sun Nov  7 07:21:05 2010
         - note -> diag
-0.03    Sun Nov  7 07:32:05 2010
-        - for shipit
-0.04    Sun Nov  7 07:34:05 2010
-        - Nothing
