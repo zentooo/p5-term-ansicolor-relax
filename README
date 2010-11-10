@@ -19,5 +19,3 @@ my $timtoady = <<'TIMTOADY';
 TIMTOADY
 
 say $timtoady->rainbow;
-
-zentooo
