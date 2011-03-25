@@ -1,5 +1,11 @@
-This is Perl module Term::ANSIColor::Relax.
+Term::ANSIColor::Relax
 =======
+
+Make colored output easily.
+
+
+Synopsis
+-------
 
 ![relax](http://cdn-ak.f.st-hatena.com/images/fotolife/z/zentoo/20101105/20101105135811.jpg)
 
